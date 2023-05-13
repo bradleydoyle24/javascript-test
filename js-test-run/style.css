@@ -22,19 +22,21 @@ body {
   flex-direction: column;
   align-items: space-between;
   justify-content: space-evenly;
-  flex-basis: 100%;
+  border: 5px solid #2A2A2A;
+  border-radius: 50px;
 }
 
 .card-box {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-bottom: 2%;
 }
 
 .card-box-heading {
   display: flex;
   justify-content: center;
-  padding: 2%;
+  margin: 2%;
   text-align: center;
   font: calc(8px + 1vw) sans-serif;
   font-weight: bold;
@@ -70,4 +72,5 @@ body {
 .footer {
   display: flex;
   justify-content: center;
+  padding: 2vh 0;
 }
