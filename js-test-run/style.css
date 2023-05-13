@@ -24,8 +24,9 @@ body {
   justify-content: space-around;
 }
 
-.card-box-header {
-  
+.card-box-heading {
+  display: flex;
+  justify-content: center;
 }
 
 .card-holder {
