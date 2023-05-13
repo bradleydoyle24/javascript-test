@@ -1,0 +1,13 @@
+body {
+  background-color: #E9E9E9;
+}
+
+.heading {
+  /*calc() sets a minimum size based on pixel size and viewport width.*/
+  font: calc(12px + 1.5vw) sans-serif;
+  font-weight: bolder;
+  color: #2A2A2A;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
