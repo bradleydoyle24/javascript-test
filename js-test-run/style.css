@@ -13,21 +13,40 @@ body {
 }
 
 .card-box-holder {
-
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
 }
 
 .card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
+.card-box-header {
+  
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-around;
 }
 
 .card {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .card-image {
+  border: 2px solid #7BD0E5;
+}
 
+.card-image::before {
+  content: "";
+  padding: 20%;
 }
 
 .card-text {
-  
+
 }
