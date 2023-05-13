@@ -1,21 +1,27 @@
 body {
+  display: flex;
+  flex-direction: column;
   background-color: #E9E9E9;
+  height: 95vh;
 }
 
 .heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   /*calc() sets a minimum size based on pixel size and viewport width.*/
   font: calc(12px + 1.5vw) sans-serif;
   font-weight: bolder;
   color: #2A2A2A;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  
 }
 
 .card-box-holder {
   display: flex;
   flex-direction: column;
   align-items: space-between;
+  justify-content: space-evenly;
+  height: 100%;
 }
 
 .card-box {
@@ -27,6 +33,10 @@ body {
 .card-box-heading {
   display: flex;
   justify-content: center;
+  text-align: center;
+  font: calc(8px + 1vw) sans-serif;
+  font-weight: bold;
+  color: #2A2A2A;
 }
 
 .card-holder {
@@ -50,4 +60,9 @@ body {
 
 .card-text {
 
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }
